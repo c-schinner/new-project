@@ -8,7 +8,7 @@ import lathe7 from "../img/lathe7.jpeg";
 
 const Carousel = () => {
     return (
-        <div className="carousel rounded-box">
+        <div className="carousel rounded-box my-4">
             <div className="carousel-item">
                 <img src={lathe1} alt="lathe1" />
             </div>

@@ -5,7 +5,7 @@ import lathe4 from "../img/lathe4.jpeg";
 
 const CarouselButtons = () => {
     return (
-        <div className="carousel w-full h-80">
+        <div className="carousel w-full h-64 md:h-80 lg:h-96">
             <div
                 id="slide1"
                 className="carousel-item relative w-full"
