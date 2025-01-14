@@ -3,6 +3,7 @@ import CarouselButtons from "./components/CarouselButtons";
 import CustomCard from "./components/CustomCard";
 import CustomCard2 from "./components/CustomCard2";
 import Navbar from "./components/Navbar";
+import Navbar2 from "./components/Navbar2";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                     hello new project
                 </h1>
                 <Navbar />
+                <Navbar2 />
             </div>
             <div className="mb-24">
                 <Carousel />
