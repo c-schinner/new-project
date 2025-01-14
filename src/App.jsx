@@ -1,5 +1,5 @@
 import Carousel from "./components/Carousel";
-import CarouselButtons from "./components/CarouselButtons";
+import Carousel2 from "./components/Carousel2";
 import CustomCard from "./components/CustomCard";
 import CustomCard2 from "./components/CustomCard2";
 import GoogleMap from "./components/GoogleMap";
@@ -20,7 +20,7 @@ function App() {
                 <Carousel />
             </div>
             <div className="mb-24">
-                <CarouselButtons />
+                <Carousel2 />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:gird-cols-3 gap-4 mb-24">
                 <CustomCard />
