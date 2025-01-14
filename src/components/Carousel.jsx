@@ -1,47 +1,34 @@
+import lathe1 from "../img/lathe1.jpeg";
+import lathe2 from "../img/lathe2.jpeg";
+import lathe3 from "../img/lathe3.jpeg";
+import lathe4 from "../img/lathe4.jpeg";
+import lathe5 from "../img/lathe5.jpeg";
+import lathe6 from "../img/lathe6.jpeg";
+import lathe7 from "../img/lathe7.jpeg";
+
 const Carousel = () => {
     return (
         <div className="carousel rounded-box">
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                    alt="Burger"
-                />
+                <img src={lathe1} alt="lathe1" />
             </div>
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-                    alt="Burger"
-                />
+                <img src={lathe2} alt="lathe2" />
             </div>
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-                    alt="Burger"
-                />
+                <img src={lathe3} alt="lathe3" />
             </div>
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-                    alt="Burger"
-                />
+                <img src={lathe4} alt="lathe4" />
             </div>
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-                    alt="Burger"
-                />
+                <img src={lathe5} alt="lathe5" />
             </div>
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-                    alt="Burger"
-                />
+                <img src={lathe6} alt="lathe6" />
             </div>
             <div className="carousel-item">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-                    alt="Burger"
-                />
+                <img src={lathe7} alt="lathe7" />
             </div>
         </div>
     );
