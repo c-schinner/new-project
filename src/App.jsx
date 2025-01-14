@@ -1,6 +1,7 @@
 import Carousel from "./components/Carousel";
 import CarouselButtons from "./components/CarouselButtons";
 import CustomCard from "./components/CustomCard";
+import CustomCard2 from "./components/CustomCard2";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -18,12 +19,17 @@ function App() {
             <div className="mb-24">
                 <CarouselButtons />
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:gird-cols-3 lg:gird-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:gird-cols-3 gap-4 mb-24">
                 <CustomCard />
                 <CustomCard />
                 <CustomCard />
                 <CustomCard />
-                <CustomCard />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:gird-cols-3 gap-4 mb-24">
+                <CustomCard2 />
+                <CustomCard2 />
+                <CustomCard2 />
+                <CustomCard2 />
             </div>
         </div>
     );
