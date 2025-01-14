@@ -2,6 +2,7 @@ import Carousel from "./components/Carousel";
 import CarouselButtons from "./components/CarouselButtons";
 import CustomCard from "./components/CustomCard";
 import CustomCard2 from "./components/CustomCard2";
+import GoogleMap from "./components/GoogleMap";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 
@@ -32,6 +33,9 @@ function App() {
                 <CustomCard2 />
                 <CustomCard2 />
                 <CustomCard2 />
+            </div>
+            <div>
+                <GoogleMap />
             </div>
         </div>
     );
