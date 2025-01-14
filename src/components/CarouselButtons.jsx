@@ -1,11 +1,13 @@
+import lathe1 from "../img/lathe1.jpeg";
+import lathe2 from "../img/lathe2.jpeg";
+import lathe3 from "../img/lathe3.jpeg";
+import lathe4 from "../img/lathe4.jpeg";
+
 const CarouselButtons = () => {
     return (
         <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                    className="w-full"
-                />
+                <img src={lathe1} className="w-full" />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide4" className="btn btn-circle">
                         ❮
@@ -16,10 +18,7 @@ const CarouselButtons = () => {
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                    className="w-full"
-                />
+                <img src={lathe2} className="w-full" />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide1" className="btn btn-circle">
                         ❮
@@ -30,10 +29,7 @@ const CarouselButtons = () => {
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                    className="w-full"
-                />
+                <img src={lathe3} className="w-full" />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide2" className="btn btn-circle">
                         ❮
@@ -44,10 +40,7 @@ const CarouselButtons = () => {
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                    className="w-full"
-                />
+                <img src={lathe4} className="w-full" />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" className="btn btn-circle">
                         ❮
