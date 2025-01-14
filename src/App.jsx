@@ -8,9 +8,9 @@ import Navbar2 from "./components/Navbar2";
 
 function App() {
     return (
-        <div className="p-4">
+        <div className="p-4" data-theme="mytheme">
             <div className="mb-24">
-                <h1 className="text-center text-4xl font-bold text-white">
+                <h1 className="text-center text-4xl font-bold text-black mb-24">
                     hello new project
                 </h1>
                 <Navbar />
